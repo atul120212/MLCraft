@@ -20,7 +20,7 @@ function Footer() {
             href="hhttps://gdg.community.dev/gdg-cloud-noida/"
             className="underline bg-transparent text-blue-500"
           >
-            GDG Cloud Noida
+            MLCraft Aligarh
           </a>
         </h1>
         

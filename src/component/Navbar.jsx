@@ -28,7 +28,7 @@ function Navbar() {
         }`}
         id="navbar">
         <div
-          className="flex items-center cursor-pointer bg-transparent m-5"
+          className="flex items-center cursor-pointer bg-transparent "
           data-aos="zoom-in"
           data-aos-delay="200"
           data-aos-duration="1500"
