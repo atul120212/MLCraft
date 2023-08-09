@@ -1,0 +1,19 @@
+#navbar {
+}
+.navScroll {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(19.4px);
+  -webkit-backdrop-filter: blur(19.4px);
+
+}
+#navbarTab {
+  background: #fff;
+  background-image: radial-gradient(
+      at 13% 85.2%,
+      hsl(151, 83%, 34%) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 8.3% 26.6%, hsl(5, 69%, 54%) 0px, transparent 50%),
+    radial-gradient(at 85.1% 79.7%, hsl(217, 89%, 61%) 0px, transparent 50%),
+    radial-gradient(at 71.5% 8.8%, hsl(44, 100%, 48%) 0px, transparent 50%);
+}

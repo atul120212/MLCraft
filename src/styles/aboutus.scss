@@ -1,0 +1,106 @@
+#About-us {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  // background: url(../assets/time-bg.png);
+  // background: #fff;
+  // background-image: radial-gradient(at 15.3% 23.1%, hsl(0, 100%, 50%) 0px, transparent 50%),radial-gradient(at 68.8% 73.9%, hsl(47, 87%, 59%) 0px, transparent 50%),radial-gradient(at 21.3% 76.1%, hsl(207, 100%, 51%) 0px, transparent 50%),radial-gradient(at 73.9% 33.2%, hsl(113, 23%, 56%) 0px, transparent 50%);
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    // background: #004cbd;
+    transform: translate(-50%, -30%);
+    z-index: 0;
+    filter: blur(200px);
+    opacity: 60%;
+  }
+}
+@media screen and (max-width: 280px) {
+  #About-us {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    // background: url(../assets/time-bg.png);
+    padding-bottom: 20px;
+    &::before {
+      transform: translate(0%, -30%);
+    }
+  }
+}
+
+.arrow {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.card-sponser {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  animation: float 5s infinite ease-in-out;
+  >img{
+    border-radius: 50%;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}

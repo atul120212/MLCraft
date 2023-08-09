@@ -1,0 +1,64 @@
+#FAQ {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  padding: 20px;
+  // background-image: url(../assets/time-bg.png);
+  // background: #fff; background-image: radial-gradient(at 15.3% 23.1%, hsl(0, 100%, 50%) 0px, transparent 50%),radial-gradient(at 68.8% 73.9%, hsl(47, 87%, 59%) 0px, transparent 50%),radial-gradient(at 21.3% 76.1%, hsl(207, 100%, 51%) 0px, transparent 50%),radial-gradient(at 73.9% 33.2%, hsl(113, 23%, 56%) 0px, transparent 50%);
+  background-color: #000000;
+// background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  z-index: 20;
+  > h1 {
+    font-size: 2.5rem;
+  }
+}
+#question-container {
+  width: 95%;
+  #question {
+    height: 40px;
+    padding: 25px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+  }
+  .ReactCollapse--collapse {
+    transition: height 500ms;
+    background: transparent;
+  }
+  .ReactCollapse--content {
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 16px 16px;
+    padding: 15px 0 20px 0;
+    min-height: fit-content;
+    border: 1px solid #282727;
+    border-top: none ;
+    // background: linear-gradient(-65deg, #004cbd, #000);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #question-container {
+    #question {
+      height: 70px;
+      padding: 15px;
+      >p{
+        font-size: 0.8rem;
+      }
+    }
+    .ReactCollapse--content {
+      display: flex;
+      align-items: center;
+      border-radius: 0 0 16px 16px;
+      padding: 15px 0 20px 0;
+      min-height: fit-content;
+      background: linear-gradient(-65deg, #004cbd, #000);
+      >div >ul >li{
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+#aboutGDG {
+    --skew-angle: -5deg;
+    --background: white;
+    position: relative;
+    isolation: isolate;
+    background: white;
+  }
+  #aboutGDG::after {
+    content: "";
+    // background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    // transform: skewY(var(--skew-angle));
+  }
+
+
+.about-section{
+  background: url(../assets/gdg.jpeg) no-repeat left;
+  background-size: 85%;
+  background-color: #eeee;
+  overflow: hidden;
+  padding: 100px 0;
+  
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text{
+  color: #545454;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: cover;
+      padding: 100px 40px;
+      background-attachment: fixed;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
