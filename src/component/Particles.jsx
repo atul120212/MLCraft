@@ -50,7 +50,7 @@ const ParticlesBg = () => {
           },
           particles: {
             color: {
-              value: ["#0F9D58", "#DB4437","#4285F4","#F4B400"],
+              value: ["#04D6C8", "#E23027","#4285F4","#38B6FF"],
               opacity: 2,
             },
             links: {

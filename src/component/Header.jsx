@@ -4,7 +4,7 @@ import React from "react";
 import "../styles/header.scss";
 
 
-import logo from "../assets/2.png";
+import logo from "../assets/2.gif";
 import ParticlesBg from "./Particles";
 
 
@@ -23,7 +23,7 @@ function Header() {
         >
           <img src={logo} alt="" className="w-[200px]" />
           <h1 className="frontend-text text-center text-gray-800 capitalize">
-          Google Developer Group <br/>Cloud Noida
+          MLCraft <br/>Coder Corps
           </h1>
         </div>
       </div>
