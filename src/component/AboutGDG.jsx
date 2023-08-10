@@ -16,11 +16,11 @@ const AboutGDG = () => {
           <div className="text flex flex-col items-start gap-2">
             <h2>“Alone we can do so little; together we can do so much.”</h2>
             
-            <p>And so here we present Google Developer Group Cloud Noida. We are a
-            community for developers who are interested in Google's developer
-            technology especially but not limited to Google Cloud. We are a
-            Developer Group for everyone to learn everything from the Android,
-            Chrome, Drive, and Google Cloud platforms, to product APIs like the
+            <p>And so here we present Coder Corps Community. We are a
+            community for developers who are interested in new domains of
+            technology especially but not limited to any single technology. We are a
+            Group for everyone to learn everything from the AI,ML,Web Development
+            Web3.0, and BlockChain, to product APIs like the
             Cast API, Maps API, and YouTube API.</p>
             <ul>
               <h2 className="text-lg font-bold">
@@ -52,10 +52,10 @@ const AboutGDG = () => {
             make this world a better place.</p>
           </div>
           <div className="skills">
-            <a href="https://www.commudle.com/communities/gdg-cloud-noida"  className="text-4xl hover:text-purple-500"><BsPeople/></a>
-            <a href="https://www.linkedin.com/company/gdg-noida-cloud/"  className="text-4xl hover:text-blue-500"><AiFillLinkedin/></a>
-            <a href="https://www.instagram.com/gdgcloudnoida/"  className="text-4xl hover:text-red-500"><AiOutlineInstagram/></a>
-            <a href="https://gdg.community.dev/gdg-cloud-noida/"  className="text-4xl hover:text-green-500"><AiFillGoogleCircle/></a>
+            <a href="https://www.commudle.com/users/CoderCorps"  className="text-4xl hover:text-purple-500"><BsPeople/></a>
+            <a href="https://www.linkedin.com/in/coder-corps-831b59237/"  className="text-4xl hover:text-blue-500"><AiFillLinkedin/></a>
+            <a href="https://www.instagram.com/coder_corps/"  className="text-4xl hover:text-red-500"><AiOutlineInstagram/></a>
+            <a href="https://www.coder-corps.tech/#/"  className="text-4xl hover:text-green-500"><AiFillGoogleCircle/></a>
           </div>
         </div>
       </div>

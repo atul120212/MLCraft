@@ -27,6 +27,13 @@ function FacultyCoordinatorCard(props) {
             </h3>
           </div>
         </div>
+        <ul className="sci bg-transparent">
+          <li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
+            <a className="bg-transparent" href={props.linkedin}>
+              <i className="fa-brands fa-linkedin bg-transparent"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

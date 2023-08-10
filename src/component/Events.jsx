@@ -18,11 +18,11 @@ const Events = () => {
             ></div>
           </div>
           <div className="description">
-            <h1>Cloud Catalyst - GDG Cloud Noida - Launch Event</h1>
-            <h2>JUL 22, 2023 - CONFERENCE</h2>
+            <h1>MLCraft - Coder Corps Community - Launch Event</h1>
+            <h2>Sep 02, 2023 - CONFERENCE</h2>
             <p>
-              Cloud Catalyst, the inaugural event of GDG Cloud Noida chapter, is
-              a transformative conference exploring Cloud, DevOps, Data, and AI,
+              MLCraft, the inaugural event of Coder Corps Community, is
+              a transformative conference exploring Machine Learning, Web3.O, Blockchain, and AI,
               featuring expert speakers, captivating sessions, and abundant
               networking opportunities.
             </p>

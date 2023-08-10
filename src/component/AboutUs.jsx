@@ -1,63 +1,21 @@
 import React from "react";
 import Div from "../assets/div.png";
-import swati from "../assets/swati.jpg";
-import arifa from "../assets/arifa.jpg";
-import javed from "../assets/javed.jpg";
-
-import shekhar from "../assets/shekhar.jpg";
-import gautam from "../assets/Gautam.jpeg";
-import ashu from "../assets/ashu.jpg";
-import harshit from "../assets/harshit.jpg";
-import vishesh from "../assets/vishesh.jpg";
-import Satakshi from "../assets/Satakshi.jpeg";
-import Ashutosh from "../assets/Ashutosh.jpeg";
-import nikhil from "../assets/nikhil.jpeg";
-import kirtika from "../assets/kirtika.jpg";
-
-import aniketa from "../assets/aniketa.jpg";
-import ashish from "../assets/Ashish.jpg";
+import Manya from "../assets/Manya.jpg";
+import Jeeya from "../assets/jeeyaa.png";
 import atul from "../assets/atul.jpg";
 import CoordinatorCard from "./CoordinatorCard";
+import FacultyCoordinatorCard from "./FacultyCoordinatorCard";
 import "../styles/aboutus.scss";
 
 function AboutUs() {
   const TeamData = [
-    {
-      image: atul,
-      name: "Atul Sharma",
-      team: "WebApp Team",
-      link: "https://www.linkedin.com/in/atul-sharma-11735b1b3/",
-      delay:"500"
-    },
-    {
-      image: Div,
-      name: "Divakar Singh",
-      team: "WebApp Team",
-      link: "https://www.linkedin.com/in/divakar-singh/",
-      delay:"3000"
-    },
-    {
-      image: ashish,
-      name: "Ashish chanchal",
-      team: "Management Team",
-      link: "https://www.linkedin.com/in/ashish2002",
-      delay:"1300"
-    },
-    {
-      image: gautam,
-      name: "Gautam Manak",
-      team: "Management Team",
-      link: "https://www.linkedin.com/in/gautammanak1/",
-      delay:"2000"
-    },
     
-   
     {
-      image: ashu,
-      name: "Ashu",
-      team: "Graphic Design Team",
-      link: "https://www.linkedin.com/in/ashu-kr/",
-      delay:"1300"
+      image: Manya,
+      name: "Manya Gupta",
+      team: "Management Team",
+      link: "https://www.linkedin.com/in/manya-gupta-b9448322a",
+      delay:"3000"
     },
   
     
@@ -67,7 +25,7 @@ function AboutUs() {
       className="flex items-center justify-center min-h-screen flex-col gap-10 py-[50px]"
       id="About-us"
     >
-      {/*
+      
       <div className="bg-transparent w-full flex justify-center items-center flex-col gap-10 py-[20px]">
       
         <h1
@@ -76,32 +34,34 @@ function AboutUs() {
           data-aos-duration="500"
           data-aos-easing="ease-in-out"
         >
-          Event Organizers
+          Organizers
         </h1>
         <div className="flex justify-center items-center bg-transparent flex-wrap gap-10">
           <FacultyCoordinatorCard
-            name="Pushkar Sharan"
-            position="Publicis Sapient, Senior Manager, Cloud COE
-            NOIDA"
-            img={pushkarSir}
+            name="Atul Sharma"
+            position="Organizer / WebApp Team"
+            img={atul}
+            linkedin="https://www.linkedin.com/in/atul-sharma-11735b1b3/"
             delay="0.5s"
           />
           <FacultyCoordinatorCard
-            name="Sushil Kumar"
-            position="Wayfair, Staff Software Engineer NOIDA"
-            img={shushilSir}
+            name="Divakar Singh"
+            position="Organizer / WebApp Team"
+            img={Div}
+            linkedin="https://www.linkedin.com/in/divakar-singh/"
             delay="1.25s"
           />
           <FacultyCoordinatorCard
-            name="Pulkita Marwah"
-            position="Searce, Cloud Consultant
-            GURGAON"
-            img={pulkitaMam}
+            name="Jeeya Agrawal"
+            position="Design and Content Team"
+            img={Jeeya}
+            linkedin="https://www.linkedin.com/in/jeeya-agrawal-068114228/"
             delay="1.5s"
           />
+          
         </div>
       </div>
-      */}
+      
       <div className="bg-transparent w-full flex justify-center items-center flex-col gap-10 py-[20px]">
         <h1
           className="text-3xl text-white bg-transparent w-full text-center z-10 uppercase"
@@ -109,10 +69,10 @@ function AboutUs() {
           data-aos-duration="500"
           data-aos-easing="ease-in-out"
         >
-          Meet our Team
+          
         </h1>
 
-        <div className="flex justify-center items-center bg-transparent flex-wrap gap-10">
+        <div className="flex justify-center items-center bg-transparent flex-wrap gap-[10rem]">
           {TeamData.map(data=>{
             return(
               <CoordinatorCard

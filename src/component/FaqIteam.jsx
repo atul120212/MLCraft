@@ -14,7 +14,7 @@ function FaqIteam({ open, toggle, question, answer, point1, point2, point3 }) {
   }
   return (
     <div
-      className="pt-[10px] bg-transparent text-white"
+      className="pt-[10px] bg-transparent text-white shadow-lg shadow-[#04D6C8]/50"
       id="question-container"
       data-aos="zoom-in"
       data-aos-duration="500"
@@ -25,7 +25,7 @@ function FaqIteam({ open, toggle, question, answer, point1, point2, point3 }) {
         id="question"
         onClick={toggle}
       >
-        <p className="text-[16px] font-semibold bg-transparent">{question}</p>
+        <p className="text-xl font-semibold bg-transparent p-5">{question}</p>
         <div className="text-[30px] bg-transparent">
           {open ? (
             <AiOutlineMinus className="bg-transparent" />
