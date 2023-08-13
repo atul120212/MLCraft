@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/event.scss";
-import cloudCatalyst from "../assets/cloudcatalyst.webp";
+import cloudCatalyst from "../assets/cloudcatalysttt.jpg";
 
 const Events = () => {
   return (
@@ -27,7 +27,7 @@ const Events = () => {
               networking opportunities.
             </p>
             <p className="read-more">
-              <a href="https://gdg.community.dev/events/details/google-gdg-cloud-noida-presents-cloud-catalyst-gdg-cloud-noida-launch-event/  ">
+              <a href="/">
                 View Details
               </a>
             </p>

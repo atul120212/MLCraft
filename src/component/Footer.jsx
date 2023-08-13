@@ -17,7 +17,7 @@ function Footer() {
         <h1 className="text-3xl text-white bg-transparent">
           © {new Date().getFullYear()}{" "}
           <a
-            href="hhttps://gdg.community.dev/gdg-cloud-noida/"
+            href="https://www.commudle.com/communities/coder-corps/events"
             className="underline bg-transparent text-blue-500"
           >
             MLCraft Aligarh

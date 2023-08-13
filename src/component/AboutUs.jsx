@@ -3,6 +3,10 @@ import Div from "../assets/div.png";
 import Manya from "../assets/Manya.jpg";
 import Jeeya from "../assets/jeeyaa.png";
 import atul from "../assets/atul.jpg";
+import Vikrant from "../assets/vikrant.jpg";
+import Shikha from "../assets/Shikha.jpg";
+import Shivam from "../assets/shiv.jpg";
+import Vanshika from "../assets/Vanshika.jpg";
 import CoordinatorCard from "./CoordinatorCard";
 import FacultyCoordinatorCard from "./FacultyCoordinatorCard";
 import "../styles/aboutus.scss";
@@ -15,6 +19,28 @@ function AboutUs() {
       name: "Manya Gupta",
       team: "Management Team",
       link: "https://www.linkedin.com/in/manya-gupta-b9448322a",
+      delay:"3000"
+    },
+    
+    {
+      image: Shikha,
+      name: "Shikha Sharma",
+      team: "Management Team",
+      link: "https://www.linkedin.com/in/shikha-sharma-17a534219",
+      delay:"3000"
+    },
+    {
+      image: Vikrant,
+      name: "Vikrant Vashishtha",
+      team: "Management Team",
+      link: "https://www.linkedin.com/in/vikrant-vashishtha-381018225",
+      delay:"3000"
+    },
+    {
+      image: Shivam,
+      name: "Shivam Sharma",
+      team: "Video Editing Team",
+      link: "https://www.instagram.com/shiv__edits__/",
       delay:"3000"
     },
   
@@ -72,7 +98,7 @@ function AboutUs() {
           
         </h1>
 
-        <div className="flex justify-center items-center bg-transparent flex-wrap gap-[10rem]">
+        <div className="flex justify-center items-center bg-transparent flex-wrap gap-10">
           {TeamData.map(data=>{
             return(
               <CoordinatorCard
