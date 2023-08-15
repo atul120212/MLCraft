@@ -22,13 +22,13 @@ const Events = () => {
             <h2>Sep 02, 2023 - CONFERENCE</h2>
             <p>
               MLCraft, the inaugural event of Coder Corps Community, is
-              a transformative conference exploring Machine Learning, Web3.O, Blockchain, and AI,
+              a transformative conference exploring Machine Learning, create Models, and tarined models,
               featuring expert speakers, captivating sessions, and abundant
               networking opportunities.
             </p>
             <p className="read-more">
-              <a href="/">
-                View Details
+              <a href="https://www.commudle.com/fill-form/1891">
+                Register here
               </a>
             </p>
           </div>
