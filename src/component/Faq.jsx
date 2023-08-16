@@ -29,12 +29,12 @@ function Faq() {
         "It’s very simple, just click on the ‘+Join’ button by visiting: https://www.commudle.com/users/CoderCorps and you’re good to go to receive all the updates from Coder Corps Community through emails.",
     },
     {
-      question: "What does Coder Corps Community?",
+      question: "What Coder Corps Community do?",
       answer:
         "Coder Corps is a community of developers who are dedicated to helping others learn and connect. Coder Corps organizers plan and host meet-up events on a wide range of technical topics typically on a monthly basis in a location near them.",
     },
     {
-      question: "What do we will get by attending Coder Corps Community events?",
+      question: "What will we get by attending Coder Corps Community events?",
       answer:
         "Besides the knowledge and networking with professionals and like-minded folks, there are some extra goodies for our audience in our time-to-time events.",
     },
